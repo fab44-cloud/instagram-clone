@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.user-container {
+    border-bottom: 1px solid #C6C6C6;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    align-items: center;
+}
+
+.user-container .user-avatar {
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    padding: 30px 10px 10px 10px;
+    gap: 0.5rem;
+}
+
+.header .avatar {
+    border-radius: 50%;
+}
+
+.header .name {
+    font-weight: 700;
+}
+
+.user-avatar {
+    width: 32px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.post .header {
+    display: flex;
+    justify-content: start;
+}
+
+.post .avatar {
+    width: 32px;
+}
+
+.post .img {
+    width: 50%;
+}
+
+.post .icon {
+    width: 32px;
+}
+
+.container {
+    padding: 8px 0 0 8px;
+}
+
+.icon {
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.icon:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.likes, .username {
+    font-weight: 700;
+}
+
+.post p {
+    margin: 0;
+}
