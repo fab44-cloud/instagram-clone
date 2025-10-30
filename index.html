@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="user-container">
+            <img class="logo" src="images/logo.png" alt="Oldagram logo">
+            <img class="user-avatar" src="images/user-avatar.png">
+        </div>
+        
+        <main id="main">
+            <article class="post">
+                
+                <div class="header">
+                    <img class="avatar" src="images/avatar-vangogh.jpg">
+                    <div>
+                        <div>
+                            <span class="name">Vincent van Gogh</span>
+                        </div>
+                        <span class="location">Zundert, Netherlands</span>
+                    </div>
+                </div>
+                
+                <div>
+                    <img class="img" src="images/post-vangogh.jpg" alt="Portrait of Vincent van Gogh">
+                </div>
+                
+                <div class="control-bar container">
+                    <img class="icon" src="images/icon-heart.png">
+                    <img class="icon" src="images/icon-comment.png">
+                    <img class="icon" src="images/icon-dm.png">
+                </div>
+                <div class="container">
+                     <span class="likes">${posts[i].likes} likes</span>
+                </div>
+                <div class="container">
+                    <p><span class="username">${posts[i].username}</span> ${posts[i].comment}</p>
+                </div>
+                
+            </article>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
